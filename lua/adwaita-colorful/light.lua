@@ -1,4 +1,4 @@
-local u = require 'adwaita.utils'
+local u = require 'adwaita-colorful.utils'
 
 local hl = u.highlight
 
