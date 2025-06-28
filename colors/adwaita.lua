@@ -5,7 +5,7 @@ if vim.fn.exists("syntax_on") then
 end
 
 vim.o.termguicolors = true
-vim.g.colors_name = "adwaita"
+vim.g.colors_name = "adwaita-colorful"
 
 if vim.o.background == 'dark' then
     local adwaita_dark = require'adwaita.dark'
