@@ -76,7 +76,7 @@ M.set = function()
     hl('String', { fg = colors.teal_5 })
     hl('Character', { fg = colors.teal_5 })
     hl('Number', { fg = colors.violet_4 })
-    hl('Boolean', { fg = colors.violet_4 })
+    hl('Boolean', { fg = colors.violet_4, bold = true })
     hl('Float', { fg = colors.violet_4 })
     hl('Identifier', { fg = colors.orange_5 })
     hl('Function', { fg = colors.blue_4 })
@@ -182,8 +182,6 @@ M.set = function()
     hl('@tag', { fg = colors.teal_5 })
     hl('@tag.delimiter', { fg = colors.dark_3 })
     hl('@tag.attribute', { fg = colors.orange_4 })
-
-		hl('reasonBoolean', { link = '@boolean' })
 
     -- LSP semantic tokens
     hl('@lsp.type.class', { link = '@type' })
