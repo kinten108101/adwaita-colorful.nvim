@@ -192,6 +192,8 @@ M.set = function()
     hl('@tag.delimiter', { fg = colors.light_4 })
     hl('@tag.attribute', { fg = colors.orange_2 })
 
+		hl('reasonBoolean', { link = '@boolean' })
+
     -- LSP semantic tokens
     hl('@lsp.type.class', { link = '@type' })
     hl('@lsp.type.decorator', { link = '@function' })
