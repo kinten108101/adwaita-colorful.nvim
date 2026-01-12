@@ -254,6 +254,13 @@ M.set = function()
     hl('GitSignsAddLn', { fg = colors.green_6, bg = colors.green_6 })
     hl('GitSignsChangeLn', { fg = colors.orange_1, bg = colors.orange_1 })
     hl("GitSignsCurrentLineBlame", { fg = colors.dark_2 })
+    
+    -- section:python
+    hl('@keyword.function.python', { fg = colors.orange_4, bold = true })
+    -- section:reason
+    hl('@keyword.function.reason', { fg = colors.orange_4, bold = true })
+    -- section:rust
+    hl("@module.rust", { fg = colors.yellow_6, bold = true })
 end
 
 return M
