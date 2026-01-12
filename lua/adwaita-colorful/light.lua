@@ -257,8 +257,8 @@ M.set = function()
     
     -- section:python
     hl('@keyword.function.python', { fg = colors.orange_4, bold = true })
-    -- section:reason
-    hl('@keyword.function.reason', { fg = colors.orange_4, bold = true })
+    -- section:fsharp
+    hl('@keyword.function.fsharp', { fg = colors.orange_4, bold = true })
     -- section:rust
     hl("@module.rust", { fg = colors.yellow_6, bold = true })
 end
