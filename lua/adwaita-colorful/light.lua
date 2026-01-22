@@ -267,7 +267,7 @@ M.set = function()
     hl('@lsp.type.class.fsharp', { fg = colors.yellow_6 })
     hl('@lsp.type.struct.fsharp', { fg = colors.green_5, bold = true })
     hl('@lsp.type.module.fsharp', { fg = colors.orange_4 })
-    hl('@lsp.type.namespace.fsharp', { fg = colors.yellow_6 })
+    hl('@lsp.type.namespace.fsharp', { fg = colors.yellow_5 })
     hl('@lsp.type.enum.fsharp', { fg = colors.teal_5, bold = true })
     hl('@lsp.type.type.fsharp', { fg = colors.green_5 })
     -- section:rust
