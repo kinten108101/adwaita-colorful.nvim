@@ -258,7 +258,18 @@ M.set = function()
     -- section:python
     hl('@keyword.function.python', { fg = colors.orange_4, bold = true })
     -- section:fsharp
+    hl('@module.fsharp', { fg = colors.orange_5 })
+    hl('@module.builtin.fsharp', { fg = colors.orange_5 })
     hl('@keyword.function.fsharp', { fg = colors.orange_4, bold = true })
+    hl('@type.fsharp', { fg = colors.yellow_4 })
+    hl('@type.definition.fsharp', { fg = colors.orange_5 })
+    hl('@lsp.type.cexpr.fsharp', { fg = colors.yellow_4 })
+    hl('@lsp.type.class.fsharp', { fg = colors.yellow_4 })
+    hl('@lsp.type.struct.fsharp', { fg = colors.green_5, bold = true })
+    hl('@lsp.type.module.fsharp', { fg = colors.orange_4 })
+    hl('@lsp.type.namespace.fsharp', { fg = colors.yellow_4 })
+    hl('@lsp.type.enum.fsharp', { fg = colors.teal_5, bold = true })
+    hl('@lsp.type.type.fsharp', { fg = colors.green_5 })
     -- section:rust
     hl("@module.rust", { fg = colors.yellow_6, bold = true })
 end
