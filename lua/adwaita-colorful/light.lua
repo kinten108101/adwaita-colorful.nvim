@@ -255,7 +255,10 @@ M.set = function()
     hl('GitSignsAddLn', { fg = colors.green_6, bg = colors.green_6 })
     hl('GitSignsChangeLn', { fg = colors.orange_1, bg = colors.orange_1 })
     hl("GitSignsCurrentLineBlame", { fg = colors.dark_2 })
-    
+    -- section:ocaml
+    -- hl('@punctuation.parameter.property.ocaml', { fg = colors.purple_1 })
+		-- section:reason
+    hl('@label.reason', { fg = colors.purple_1 })
     -- section:python
     hl('@keyword.function.python', { fg = colors.orange_4, bold = true })
     -- section:fsharp
