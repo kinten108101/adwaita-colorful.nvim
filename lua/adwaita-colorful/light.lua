@@ -202,13 +202,32 @@ M.set = function()
     hl('@lsp.type.variable', { link = '@variable' })
     hl('@lsp.type.keyword', { link = '@keyword' })
 
+    hl('@diff.plus', { link = 'DiffAdd' })
+    hl('@diff.minus', { link = 'DiffDelete' })
+    hl('@diff.delta', { link = 'DiffChange' })
+
+    hl('@text', { fg = colors.dark_3, bg = 'NONE' }) -- Legacy
+    hl('@markup.strong', { bold = true })
+    hl('@markup.italic', { italic = true })
+    hl('@markup.underline', { underline = true })
+    hl('@markup.strikethrough', { strikethrough = true })
+    hl('@markup.heading', { fg = colors.teal_5, bold = true })
+    hl('@markup.raw', { fg = colors.violet_3, bg = 'NONE' })
+    hl('@markup.raw.markdown', { fg = colors.violet_3, bg = 'NONE' })
+    hl('@markup.raw.markdown_inline', { fg = colors.violet_3, bg = 'NONE' })
+    hl('@markup.link.label', { fg = colors.red_2 })
+    hl('@markup.link.url', { fg = colors.blue_2 })
+    hl('@markup.list.markdown', { fg = colors.orange_4, bold = true })
+    hl('@markup.list.checked', { link = 'Todo' })
+    hl('@markup.list.unchecked', { link = 'Todo' })
+    hl('@textReference', { fg = colors.orange_2 })
+    hl('@stringEscape', { fg = colors.orange_2, bold = true })
 
     hl('htmlTag', { fg = colors.teal_5 })
     hl('htmlEndTag', { fg = colors.teal_5 })
     hl('htmlTagName', { fg = colors.teal_5 })
     hl('htmlSpecialTagName', { fg = colors.teal_5 })
     hl('htmlArg', { fg = colors.orange_4 })
-
 
     hl('NvimTreeRootFolder', { fg = colors.dark_3 })
     hl('NvimTreeFolderIcon', { fg = colors.dark_3 })
