@@ -295,6 +295,8 @@ M.set = function()
     hl('@lsp.type.type.fsharp', { fg = colors.green_5 })
     -- section:rust
     hl("@module.rust", { fg = colors.yellow_6, bold = true })
+		-- section:typst
+    hl('@markup.heading.typst', { bold = true })
 end
 
 return M
