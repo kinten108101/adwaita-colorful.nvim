@@ -296,8 +296,8 @@ M.set = function()
     -- section:rust
     hl("@module.rust", { fg = colors.yellow_6, bold = true })
 		-- section:typst
-    hl('@markup.heading.1.typst', { bold = true })
-    hl('@markup.heading.2.typst', { bold = true })
+    -- hl('@markup.heading.1.typst', { bold = true })
+    -- hl('@markup.heading.2.typst', { bold = true })
 end
 
 return M
