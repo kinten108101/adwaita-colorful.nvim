@@ -298,6 +298,9 @@ M.set = function()
 		-- section:typst
     hl('@markup.heading.1.typst', { bold = true })
     hl('@markup.heading.2.typst', { bold = true })
+		-- section:ocamldoc ocamldoc_inline
+    hl('@markup.heading.1.ocamldoc_inline', { bold = true })
+    hl('@markup.heading.2.ocamldoc_inline', { bold = true })
 end
 
 return M
