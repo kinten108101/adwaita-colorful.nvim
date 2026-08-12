@@ -304,6 +304,8 @@ M.set = function()
 		-- section:latex
     hl('@markup.heading.1.latex', { bold = true })
     hl('@markup.heading.2.latex', { bold = true })
+    hl('@markup.heading.3.latex', { bold = true })
+    hl('@markup.heading.4.latex', { bold = true })
 end
 
 return M
