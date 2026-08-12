@@ -306,6 +306,7 @@ M.set = function()
     hl('@markup.heading.2.latex', { bold = true })
     hl('@markup.heading.3.latex', { bold = true })
     hl('@markup.heading.4.latex', { bold = true })
+    hl('@module.latex', { link = 'Keyword' })
 end
 
 return M
