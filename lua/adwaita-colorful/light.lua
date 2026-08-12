@@ -301,6 +301,9 @@ M.set = function()
 		-- section:ocamldoc ocamldoc_inline
     hl('@markup.heading.1.ocamldoc_inline', { bold = true })
     hl('@markup.heading.2.ocamldoc_inline', { bold = true })
+		-- section:latex
+    hl('@markup.heading.1.latex', { bold = true })
+    hl('@markup.heading.2.latex', { bold = true })
 end
 
 return M
