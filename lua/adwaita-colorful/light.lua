@@ -280,6 +280,7 @@ M.set = function()
     hl('@label.reason', { fg = colors.purple_1 })
     -- section:python
     hl('@keyword.function.python', { fg = colors.orange_4, bold = true })
+    hl('@punctuation.expression.python', { link = '@punctuation.bracket.python' })
     -- section:fsharp
     hl('@module.fsharp', { fg = colors.orange_5 })
     hl('@module.builtin.fsharp', { fg = colors.orange_5 })
